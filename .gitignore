@@ -10,6 +10,8 @@ tmp/
 styles/
 # Exclude translation .mo files
 locales/*/LC_MESSAGES/*.mo
+# Exclude the translation_stats.json file
+_static/translation_stats.json
 
 # Exclude Jupyter Notebook checkpoints
 .ipynb_checkpoints/
